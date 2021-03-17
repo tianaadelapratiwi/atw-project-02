@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	 <%- include('../components/navbar') %>
+	 <a href="/users">Kembali</a>
+
+	 <h1>Detail User</h1>
+	 <ul>
+	 	<li>Nama: <strong><%=user[0].name  %></strong></li>
+	 	<li>Email: <strong><%=user[0].email  %></strong></li>
+	 </ul>
+
+	 <footer>
+		<p class="text-center text-muted">© Copyright 2021 Tiana Adela Pratiwi</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  background-color: #008B8B;
+}
+
+h1 {
+  color:#008B8B;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+p {
+  color: white;
+  font-family: times new roman;
+  font-size: 20px;
+  text-align: justify-all;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+footer 
+  p {
+    padding-top: 70px;
+    text-align: center;
+  }
+
+
+li {
+  display: inline;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-bottom: 14px;
+ background: #A9A9A9;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+  float: left;
+ padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#5F9EA0;
+}
+
+label {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+button {
+  color: white;
+  background-color: black;
+}
+
+input-group {
+  margin-bottom: 5px;
+}
+
